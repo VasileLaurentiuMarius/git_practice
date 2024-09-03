@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#smallLogo{
+    width: 80px;
+    height: 50px;
+}
+#nav{
+
+    background-color: black;
+    display: inline-flex;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+ul{
+ display: inline-flex;
+ gap: 30px;
+ position: absolute;
+    right: 10px;
+    top: 30%;
+ margin-right: 20px;
+ list-style-type: none;
+}
+ul li{
+    color: wheat;
+}
+a{
+    color: wheat;
+}
+#header{
+    background-image: url(imgs/Pizza-3007395.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#header h1{
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
